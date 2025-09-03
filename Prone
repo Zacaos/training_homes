@@ -1,0 +1,26 @@
+Aqui está um texto sugerido para a descrição do seu Pull Request:
+
+````markdown name=pr-descricao.md
+## Implementação de Cadastro Integrado
+
+Este Pull Request implementa as seguintes funcionalidades:
+
+- **Estrutura dos diretórios**: Criação das pastas `backend/` e `frontend/` para separar as responsabilidades do projeto.
+- **Backend**:
+  - Adiciona a rota `POST /api/usuarios` para cadastro de novos usuários.
+  - Implementação básica da API utilizando as melhores práticas de organização.
+- **Frontend**:
+  - Criação da página de cadastro de usuário.
+  - Integração da página de cadastro com o backend, enviando os dados para a rota `/api/usuarios`.
+
+### Como testar
+
+1. Suba o backend e o frontend conforme a estrutura proposta.
+2. Acesse a página de cadastro no frontend.
+3. Preencha os dados de usuário e envie.
+4. Verifique se o cadastro é realizado corretamente e se os dados são recebidos no backend.
+
+---
+
+Caso precise de ajustes ou melhorias, fique à vontade para sugerir!
+````
